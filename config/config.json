@@ -1,0 +1,13 @@
+{ 
+    "primeShackCam1": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov",
+    "primeShackCam2": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov",
+    "secondShackCam1": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov",
+    "secondShackCam2": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov",
+    "bin": "queue ! rtph264depay ! h264parse ! avdec_h264 ! queue ! videoconvert ! video/x-raw,format=ARGB ! videoconvert",
+    "tcpPort": 17000,
+    "udpPort": 18000,
+    "primeShackCam1Pipe": "gst-pipeline: rtspsrc rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov ! queue ! rtph264depay ! h264parse ! avdec_h264 ! videoconvert ! qtvideosink",
+    "primeShackCam2Pipe": "gst-pipeline: rtspsrc rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov ! queue ! rtph264depay ! h264parse ! avdec_h264 ! videoconvert ! qtvideosink",
+    "secondShackCam1Pipe":"gst-pipeline: rtspsrc rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov ! queue ! rtph264depay ! h264parse ! avdec_h264 ! videoconvert ! qtvideosink",
+    "secondShackCam2Pipe":"gst-pipeline: rtspsrc rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov ! queue ! rtph264depay ! h264parse ! avdec_h264 ! videoconvert ! qtvideosink"
+}

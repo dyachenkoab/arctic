@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/shack.png</file>
+        <file>image/background.jpg</file>
+        <file>image/fan.png</file>
+        <file>image/heater.png</file>
+        <file>image/lamp.png</file>
+        <file>image/socket.png</file>
+        <file>image/camera.png</file>
+        <file>image/radio.png</file>
+        <file>fonts/youmurdererbb_reg.ttf</file>
+        <file>fonts/Space_Rave.ttf</file>
+        <file>qml/main.qml</file>
+        <file>qml/PrimeScreen.qml</file>
+        <file>qml/PrimeScreenForm.ui.qml</file>
+        <file>qml/SideBar.qml</file>
+        <file>qml/SideBarForm.ui.qml</file>
+        <file>qml/VisibleSensors.qml</file>
+        <file>qml/VisibleSensorsForm.ui.qml</file>
+        <file>qml/HelloScreen.qml</file>
+        <file>qml/ShackPlan.qml</file>
+        <file>qml/ShackPlanForm.ui.qml</file>
+        <file>qml/ShackButton.qml</file>
+        <file>qml/RadioLabel.qml</file>
+        <file>qml/RadioLabelForm.ui.qml</file>
+    </qresource>
+</RCC>
